@@ -1,0 +1,23 @@
+{
+"name": "Quasi Doodle",
+"publisher": "QuasiKili",
+"short_description": "Keyboard-controlled drawing app",
+"long_description": "Draw using arrow keys to move cursor and Enter to toggle drawing.",
+"icon_url": "https://apps.quasikili.com/apps/com.quasikili.quasidoodle/icons/com.quasikili.quasidoodle_0.0.1_64x64.png",
+"download_url": "https://apps.quasikili.com/apps/com.quasikili.quasidoodle/mpks/com.quasikili.quasidoodle_0.0.1.mpk",
+"fullname": "com.quasikili.quasidoodle",
+"version": "0.0.1",
+"category": "graphics",
+"activities": [
+    {
+      "entrypoint": "assets/quasidoodle.py",
+      "classname": "QuasiDoodle",
+      "intent_filters": [
+        {
+          "action": "main",
+          "category": "launcher"
+        }
+      ]
+    }
+  ]
+}
