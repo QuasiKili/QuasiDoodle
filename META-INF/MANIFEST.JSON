@@ -3,10 +3,10 @@
 "publisher": "QuasiKili",
 "short_description": "Keyboard-controlled drawing app",
 "long_description": "Draw using arrow keys to move cursor and Enter to toggle drawing.",
-"icon_url": "https://apps.quasikili.com/apps/com.quasikili.quasidoodle/icons/com.quasikili.quasidoodle_0.0.1_64x64.png",
-"download_url": "https://apps.quasikili.com/apps/com.quasikili.quasidoodle/mpks/com.quasikili.quasidoodle_0.0.1.mpk",
+"icon_url": "https://apps.quasikili.com/apps/com.quasikili.quasidoodle/icons/com.quasikili.quasidoodle_0.0.2_64x64.png",
+"download_url": "https://apps.quasikili.com/apps/com.quasikili.quasidoodle/mpks/com.quasikili.quasidoodle_0.0.2.mpk",
 "fullname": "com.quasikili.quasidoodle",
-"version": "0.0.1",
+"version": "0.0.2",
 "category": "graphics",
 "activities": [
     {
