@@ -1,6 +1,6 @@
-from mpos import Activity
-import mpos.ui
 import lvgl as lv
+
+from mpos import Activity
 
 DARKPINK = lv.color_hex(0xEC048C)
 CURSOR_COLOR = lv.color_hex(0x00FF00)  # Green cursor
