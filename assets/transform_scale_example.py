@@ -24,7 +24,7 @@ class Draw2(Activity):
         # The button and the label is rendered to a layer first and that layer is blended
         btn = lv.button(screen)
         btn.set_size(100, 40)
-        btn.set_style_opa(lv.OPA._50, 0)
+        btn.set_style_opa(lv.OPA._50, lv.PART.MAIN)
         btn.align(lv.ALIGN.CENTER, 0, 0)
 
         label = lv.label(btn)
@@ -35,11 +35,11 @@ class Draw2(Activity):
         # The button and the label is rendered to a layer first and that layer is transformed
         btn = lv.button(screen)
         btn.set_size(100, 40)
-        btn.set_style_transform_rotation(150, 0)  # 15 deg
-        btn.set_style_transform_scale(256 + 64, 0)  # 1.25x
-        btn.set_style_transform_pivot_x(50, 0)
-        btn.set_style_transform_pivot_y(20, 0)
-        btn.set_style_opa(lv.OPA._50, 0)
+        btn.set_style_transform_rotation(150, lv.PART.MAIN)  # 15 deg
+        btn.set_style_transform_scale(256 + 64, lv.PART.MAIN)  # 1.25x
+        btn.set_style_transform_pivot_x(50, lv.PART.MAIN)
+        btn.set_style_transform_pivot_y(20, lv.PART.MAIN)
+        btn.set_style_opa(lv.OPA._50, lv.PART.MAIN)
         btn.align(lv.ALIGN.CENTER, 0, 70)
 
         label = lv.label(btn)
