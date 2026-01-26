@@ -28,7 +28,7 @@ class QuasiDoodle(Activity):
         self.hor_res = disp.get_horizontal_resolution()
         self.ver_res = disp.get_vertical_resolution()
         self.canvas.set_size(self.hor_res, self.ver_res)
-        self.canvas.set_style_bg_color(lv.color_white(), 0)
+        self.canvas.set_style_bg_color(lv.color_white(), lv.PART.MAIN)
         buffer = bytearray(self.hor_res * self.ver_res * 4)
         self.canvas.set_buffer(buffer, self.hor_res, self.ver_res, lv.COLOR_FORMAT.RGB888)
         self.canvas.fill_bg(lv.color_white(), lv.OPA.COVER)
